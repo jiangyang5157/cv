@@ -1,0 +1,46 @@
+%----------------------------------------------------------------
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+% LaTeX Template for Cover Letter
+%
+% Authors:
+% Yang Jiang <jiangyang5157@gmail.com>
+%
+% This template is inspired by:
+% https://github.com/posquit0/Awesome-CV
+%
+% Template license:
+% CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
+%----------------------------------------------------------------
+
+%----------------------------------------------------------------
+% Config
+%----------------------------------------------------------------
+\documentclass[11pt, a4paper]{awesome-cv}
+\geometry{top=0.8cm,bottom=1.8cm,left=1.4cm,right=1.4cm,footskip=0.5cm}
+\fontdir[fonts/]
+\usepackage{hyperref}
+
+%----------------------------------------------------------------
+% Personal info
+%----------------------------------------------------------------
+\name{Yang}{Jiang}
+\position{Software Engineer{\enskip\cdotp\enskip}Android Developer}
+\address{12 Mural Place, Greenhithe, Auckland 0632, New Zealand}
+\mobile{(+64) 02102625225} 
+\email{jiangyang5157@gmail.com}
+\github{jiangyang5157}
+\linkedin{jiangyang5157}
+\quote{Working on Android is so much more than a job, it is my passion in life, and keeps me staying motivated.}
+
+%----------------------------------------------------------------
+\begin{document}
+\makecvheader % Print the header with above personal informations
+\makecvfooter{}{Resume}{\today}% Print the footer with 3 arguments(<left>, <center>, <right>)
+
+\input{cv/summary.tex}
+\input{resume/employment.tex}
+\input{resume/education.tex}
+\end{document}
+
+%----------------------------------------------------------------

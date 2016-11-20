@@ -1,0 +1,5 @@
+coverletter-*
+*.log
+*.aux
+*.out
+*.synctex.gz
