@@ -295,6 +295,8 @@
 % Usage: \linkedin{<linked-in-nick>}
 \newcommand*{\linkedin}[1]{\def\@linkedin{#1}}
 
+\newcommand*{\wechat}[1]{\def\@wechat{#1}}
+
 % Usage: \twitter{<twitter handle>}
 \newcommand*{\twitter}[1]{\def\@twitter{#1}}
 
@@ -433,6 +435,12 @@
           \ifbool{isstart}{\setbool{isstart}{false}}{\acvHeaderSocialSep}%
           \href{https://www.linkedin.com/in/\@linkedin}{\faLinkedinSquare\acvHeaderIconSep\@linkedin}%
         }%
+	 \ifthenelse{\isundefined{\@wechat}}%
+	    {}%
+	    {%
+	    	\ifbool{isstart}{\setbool{isstart}{false}}{\acvHeaderSocialSep}%
+	    	\href{https://web.wechat.com/}{\faWechat\acvHeaderIconSep\@wechat}%
+	    }%
       \ifthenelse{\isundefined{\@twitter}}%
         {}%
         {%
