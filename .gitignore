@@ -3,3 +3,6 @@ coverletter-*
 *.aux
 *.out
 *.synctex.gz
+
+# iOS
+*.DS_Store
