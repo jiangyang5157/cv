@@ -1,8 +1,9 @@
-coverletter-*
 *.log
 *.aux
 *.out
 *.synctex.gz
+
+coverletter-*
 
 # iOS
 *.DS_Store
