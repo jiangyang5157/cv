@@ -126,6 +126,7 @@
 \definecolor{lightgreen}{HTML}{8BC34A}
 \definecolor{blue}{HTML}{2196F3}
 \definecolor{lightblue}{HTML}{03A9F4}
+\definecolor{deepblue}{HTML}{0000EE}
 % Text colors
 \colorlet{darktext}{lightblack}
 \colorlet{text}{darkgray}
