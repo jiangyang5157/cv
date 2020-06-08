@@ -386,6 +386,7 @@
 % Use to execute conditional statements by checking empty string
 \newcommand*{\ifempty}[3]{\ifthenelse{\isempty{#1}}{#2}{#3}}
 
+\newcommand\tab[1][1cm]{\hspace*{#1}}
 
 %-------------------------------------------------------------------------------
 %                Commands for elements of CV structure
